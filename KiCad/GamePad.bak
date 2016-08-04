@@ -1,0 +1,1944 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:GamePad-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Pi Boy"
+Date "2016-06-27"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P5
+U 1 1 574B4898
+P 1150 1150
+F 0 "P5" H 1150 1250 50  0000 C CNN
+F 1 "Up" V 1250 1150 50  0000 C CNN
+F 2 "GameBoy:button_round" H 1150 1150 50  0001 C CNN
+F 3 "" H 1150 1150 50  0000 C CNN
+	1    1150 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 574B4843
+P 1500 1900
+F 0 "P6" H 1500 2000 50  0000 C CNN
+F 1 "Down" V 1600 1900 50  0000 C CNN
+F 2 "GameBoy:button_round" H 1500 1900 50  0001 C CNN
+F 3 "" H 1500 1900 50  0000 C CNN
+	1    1500 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P8
+U 1 1 574B4812
+P 1350 1550
+F 0 "P8" H 1350 1650 50  0000 C CNN
+F 1 "Right" V 1450 1550 50  0000 C CNN
+F 2 "GameBoy:button_round" H 1350 1550 50  0001 C CNN
+F 3 "" H 1350 1550 50  0000 C CNN
+	1    1350 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 574B474E
+P 950 1550
+F 0 "P4" H 950 1650 50  0000 C CNN
+F 1 "Left" V 1050 1550 50  0000 C CNN
+F 2 "GameBoy:button_round" H 950 1550 50  0001 C CNN
+F 3 "" H 950 1550 50  0000 C CNN
+	1    950  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P19
+U 1 1 574B4B75
+P 3350 1100
+F 0 "P19" H 3350 1200 50  0000 C CNN
+F 1 "X" V 3450 1100 50  0000 C CNN
+F 2 "GameBoy:button_round" H 3350 1100 50  0001 C CNN
+F 3 "" H 3350 1100 50  0000 C CNN
+	1    3350 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P20
+U 1 1 574B4B7B
+P 3350 1850
+F 0 "P20" H 3350 1950 50  0000 C CNN
+F 1 "B" V 3450 1850 50  0000 C CNN
+F 2 "GameBoy:button_round" H 3350 1850 50  0001 C CNN
+F 3 "" H 3350 1850 50  0000 C CNN
+	1    3350 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P22
+U 1 1 574B4B81
+P 3550 1500
+F 0 "P22" H 3550 1600 50  0000 C CNN
+F 1 "A" V 3650 1500 50  0000 C CNN
+F 2 "GameBoy:button_round" H 3550 1500 50  0001 C CNN
+F 3 "" H 3550 1500 50  0000 C CNN
+	1    3550 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P18
+U 1 1 574B4B87
+P 3150 1500
+F 0 "P18" H 3150 1600 50  0000 C CNN
+F 1 "Y" V 3250 1500 50  0000 C CNN
+F 2 "GameBoy:button_round" H 3150 1500 50  0001 C CNN
+F 3 "" H 3150 1500 50  0000 C CNN
+	1    3150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P12
+U 1 1 574B4B9D
+P 2050 1850
+F 0 "P12" H 2050 1950 50  0000 C CNN
+F 1 "Select" V 2150 1850 50  0000 C CNN
+F 2 "GameBoy:button_rectangle" H 2050 1850 50  0001 C CNN
+F 3 "" H 2050 1850 50  0000 C CNN
+	1    2050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P15
+U 1 1 574B4BEA
+P 2550 1850
+F 0 "P15" H 2550 1950 50  0000 C CNN
+F 1 "Start" V 2650 1850 50  0000 C CNN
+F 2 "GameBoy:button_rectangle" H 2550 1850 50  0001 C CNN
+F 3 "" H 2550 1850 50  0000 C CNN
+	1    2550 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P11
+U 1 1 574B91C4
+P 2050 1200
+F 0 "P11" H 2050 1300 50  0000 C CNN
+F 1 "L" V 2150 1200 50  0000 C CNN
+F 2 "GameBoy:button_rectangle" H 2050 1200 50  0001 C CNN
+F 3 "" H 2050 1200 50  0000 C CNN
+	1    2050 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P14
+U 1 1 574B91CA
+P 2550 1200
+F 0 "P14" H 2550 1300 50  0000 C CNN
+F 1 "R" V 2650 1200 50  0000 C CNN
+F 2 "GameBoy:button_rectangle" H 2550 1200 50  0001 C CNN
+F 3 "" H 2550 1200 50  0000 C CNN
+	1    2550 1200
+	0    -1   -1   0   
+$EndComp
+Text Label 3200 6450 2    39   ~ 0
+L
+Text Label 3200 6350 2    39   ~ 0
+R
+Text Label 3600 7250 3    39   ~ 0
+SELECT
+Text Label 4000 7250 3    39   ~ 0
+START
+Text Label 3200 6750 2    39   ~ 0
+UP
+Text Label 3200 6650 2    39   ~ 0
+RIGHT
+Text Label 3200 6950 2    39   ~ 0
+DOWN
+Text Label 3200 6850 2    39   ~ 0
+LEFT
+Text Label 4400 6650 0    39   ~ 0
+X
+Text Label 4400 6850 0    39   ~ 0
+A
+Text Label 4400 6750 0    39   ~ 0
+B
+Text Label 4400 6550 0    39   ~ 0
+Y
+Text Label 2000 1400 3    39   ~ 0
+L_2
+Text Label 2500 1400 3    39   ~ 0
+R_2
+Text Label 2000 2050 3    39   ~ 0
+SELECT
+Text Label 2500 2050 3    39   ~ 0
+START
+Text Label 1200 950  0    39   ~ 0
+UP
+Text Label 1550 1600 0    39   ~ 0
+RIGHT
+Text Label 1450 2100 3    39   ~ 0
+DOWN
+Text Label 750  1500 2    39   ~ 0
+LEFT
+Text Label 3400 900  0    39   ~ 0
+X
+Text Label 3750 1550 0    39   ~ 0
+A
+Text Label 3300 2050 3    39   ~ 0
+B
+Text Label 2950 1450 2    39   ~ 0
+Y
+$Comp
+L CONN_01X01 P25
+U 1 1 574CF710
+P 1850 850
+F 0 "P25" H 1850 950 50  0000 C CNN
+F 1 "GND" V 1950 850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1850 850 50  0001 C CNN
+F 3 "" H 1850 850 50  0000 C CNN
+	1    1850 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P26
+U 1 1 574D0062
+P 2450 850
+F 0 "P26" H 2450 950 50  0000 C CNN
+F 1 "GND" V 2550 850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2450 850 50  0001 C CNN
+F 3 "" H 2450 850 50  0000 C CNN
+	1    2450 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P27
+U 1 1 574D00C8
+P 700 4450
+F 0 "P27" H 700 4550 50  0000 C CNN
+F 1 "GND" V 800 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 700 4450 50  0001 C CNN
+F 3 "" H 700 4450 50  0000 C CNN
+	1    700  4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P28
+U 1 1 574D012F
+P 950 4450
+F 0 "P28" H 950 4550 50  0000 C CNN
+F 1 "GND" V 1050 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 950 4450 50  0001 C CNN
+F 3 "" H 950 4450 50  0000 C CNN
+	1    950  4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P29
+U 1 1 574D019F
+P 1200 4450
+F 0 "P29" H 1200 4550 50  0000 C CNN
+F 1 "GND" V 1300 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1200 4450 50  0001 C CNN
+F 3 "" H 1200 4450 50  0000 C CNN
+	1    1200 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 1850 1050 0    39   ~ 0
+GND_L
+Text Label 2450 1050 0    39   ~ 0
+GND_R
+Text Label 700  4650 0    39   ~ 0
+GND
+Text Label 950  4650 0    39   ~ 0
+GND
+Text Label 1200 4650 0    39   ~ 0
+GND
+Text Label 1100 950  2    39   ~ 0
+GND
+Text Label 750  1600 2    39   ~ 0
+GND
+Text Label 1550 2100 3    39   ~ 0
+GND
+Text Label 2100 1400 3    39   ~ 0
+GND_L
+Text Label 2600 1400 3    39   ~ 0
+GND_R
+Text Label 3300 900  2    39   ~ 0
+GND
+Text Label 2950 1550 2    39   ~ 0
+GND
+Text Label 2100 2050 3    39   ~ 0
+GND
+Text Label 2600 2050 3    39   ~ 0
+GND
+Text Label 3400 2050 3    39   ~ 0
+GND
+Text Label 3750 1450 0    39   ~ 0
+GND
+Text Label 1550 1500 0    39   ~ 0
+GND
+$Comp
+L CONN_01X01 P30
+U 1 1 574B8F82
+P 1450 4450
+F 0 "P30" H 1450 4550 50  0000 C CNN
+F 1 "GND" V 1550 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1450 4450 50  0001 C CNN
+F 3 "" H 1450 4450 50  0000 C CNN
+	1    1450 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 1450 4650 0    39   ~ 0
+GND
+$Comp
+L CONN_01X01 P31
+U 1 1 574B8FB5
+P 1200 4800
+F 0 "P31" H 1200 4900 50  0000 C CNN
+F 1 "GND" V 1300 4800 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1200 4800 50  0001 C CNN
+F 3 "" H 1200 4800 50  0000 C CNN
+	1    1200 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 1200 5000 0    39   ~ 0
+GND
+$Comp
+L CONN_01X01 P32
+U 1 1 574B8FEB
+P 1450 4800
+F 0 "P32" H 1450 4900 50  0000 C CNN
+F 1 "GND" V 1550 4800 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1450 4800 50  0001 C CNN
+F 3 "" H 1450 4800 50  0000 C CNN
+	1    1450 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 1450 5000 0    39   ~ 0
+GND
+$Comp
+L CONN_01X02 P36
+U 1 1 574F276D
+P 1100 2700
+F 0 "P36" H 1100 2800 50  0000 C CNN
+F 1 "LOAD" V 1200 2700 50  0000 C CNN
+F 2 "GameBoy:button_round" H 1100 2700 50  0001 C CNN
+F 3 "" H 1100 2700 50  0000 C CNN
+	1    1100 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 1050 2900 2    39   ~ 0
+LOAD_2
+Text Label 1150 2900 0    39   ~ 0
+GND_LOAD
+$Comp
+L CONN_01X02 P37
+U 1 1 574F29F0
+P 1100 3050
+F 0 "P37" H 1100 3150 50  0000 C CNN
+F 1 "Save" V 1200 3050 50  0000 C CNN
+F 2 "GameBoy:button_round" H 1100 3050 50  0001 C CNN
+F 3 "" H 1100 3050 50  0000 C CNN
+	1    1100 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 1050 3250 2    39   ~ 0
+SAVE_2
+Text Label 1150 3250 0    39   ~ 0
+GND_SAVE
+$Comp
+L CONN_01X02 P38
+U 1 1 574F2B04
+P 1100 3400
+F 0 "P38" H 1100 3500 50  0000 C CNN
+F 1 "Turbo" V 1200 3400 50  0000 C CNN
+F 2 "GameBoy:button_round" H 1100 3400 50  0001 C CNN
+F 3 "" H 1100 3400 50  0000 C CNN
+	1    1100 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 1050 3600 2    39   ~ 0
+TURBO_2
+Text Label 1150 3600 0    39   ~ 0
+GND_TURBO
+$Comp
+L CONN_01X01 P34
+U 1 1 574F2F52
+P 800 3050
+F 0 "P34" H 800 3150 50  0000 C CNN
+F 1 "Save" V 900 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 800 3050 50  0001 C CNN
+F 3 "" H 800 3050 50  0000 C CNN
+	1    800  3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P33
+U 1 1 574F2F58
+P 800 2700
+F 0 "P33" H 800 2800 50  0000 C CNN
+F 1 "LOAD" V 900 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 800 2700 50  0001 C CNN
+F 3 "" H 800 2700 50  0000 C CNN
+	1    800  2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P35
+U 1 1 574F2F5E
+P 800 3400
+F 0 "P35" H 800 3500 50  0000 C CNN
+F 1 "Turbo" V 900 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 800 3400 50  0001 C CNN
+F 3 "" H 800 3400 50  0000 C CNN
+	1    800  3400
+	0    -1   -1   0   
+$EndComp
+Text Label 800  2900 2    39   ~ 0
+LOAD_2
+Text Label 800  3250 2    39   ~ 0
+SAVE_2
+Text Label 800  3600 2    39   ~ 0
+TURBO_2
+$Comp
+L CONN_01X01 P39
+U 1 1 574F43C4
+P 1550 2700
+F 0 "P39" H 1550 2800 50  0000 C CNN
+F 1 "GND" V 1650 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1550 2700 50  0001 C CNN
+F 3 "" H 1550 2700 50  0000 C CNN
+	1    1550 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P40
+U 1 1 574F43CA
+P 1550 3050
+F 0 "P40" H 1550 3150 50  0000 C CNN
+F 1 "GND" V 1650 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1550 3050 50  0001 C CNN
+F 3 "" H 1550 3050 50  0000 C CNN
+	1    1550 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 1550 2900 0    39   ~ 0
+GND_LOAD
+Text Label 1550 3250 0    39   ~ 0
+GND_SAVE
+$Comp
+L CONN_01X01 P41
+U 1 1 574F448E
+P 1550 3400
+F 0 "P41" H 1550 3500 50  0000 C CNN
+F 1 "GND" V 1650 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1550 3400 50  0001 C CNN
+F 3 "" H 1550 3400 50  0000 C CNN
+	1    1550 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 1550 3600 0    39   ~ 0
+GND_TURBO
+$Comp
+L CONN_01X01 P46
+U 1 1 574F5DDB
+P 1950 3400
+F 0 "P46" H 1950 3500 50  0000 C CNN
+F 1 "GND" V 2050 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1950 3400 50  0001 C CNN
+F 3 "" H 1950 3400 50  0000 C CNN
+	1    1950 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 1950 3600 0    39   ~ 0
+GND_TURBO
+$Comp
+L CONN_01X01 P42
+U 1 1 574F5E81
+P 2100 850
+F 0 "P42" H 2100 950 50  0000 C CNN
+F 1 "GND" V 2200 850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2100 850 50  0001 C CNN
+F 3 "" H 2100 850 50  0000 C CNN
+	1    2100 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P43
+U 1 1 574F5E87
+P 2700 850
+F 0 "P43" H 2700 950 50  0000 C CNN
+F 1 "GND" V 2800 850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2700 850 50  0001 C CNN
+F 3 "" H 2700 850 50  0000 C CNN
+	1    2700 850 
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 1050 0    39   ~ 0
+GND_L
+Text Label 2700 1050 0    39   ~ 0
+GND_R
+$Comp
+L CONN_01X04 P47
+U 1 1 574F6033
+P 750 2000
+F 0 "P47" H 750 2250 50  0000 C CNN
+F 1 "JOYSTICK" V 850 2000 50  0000 C CNN
+F 2 "GameBoy:PSP_Joystick" H 750 2350 50  0001 C CNN
+F 3 "" H 750 2000 50  0000 C CNN
+	1    750  2000
+	-1   0    0    1   
+$EndComp
+Text Label 950  2150 0    39   ~ 0
+5V
+Text Label 950  2050 0    39   ~ 0
+STICK_X
+Text Label 950  1950 0    39   ~ 0
+GND
+Text Label 950  1850 0    39   ~ 0
+STICK_Y
+$Comp
+L LED D1
+U 1 1 574F77C7
+P 4350 5200
+F 0 "D1" H 4350 5300 50  0000 C CNN
+F 1 "BAT_LOW" H 4350 5100 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 4350 5200 50  0001 C CNN
+F 3 "" H 4350 5200 50  0000 C CNN
+	1    4350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 574F7858
+P 4550 4900
+F 0 "R1" V 4630 4900 50  0000 C CNN
+F 1 "1k" V 4550 4900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4480 4900 50  0001 C CNN
+F 3 "" H 4550 4900 50  0000 C CNN
+	1    4550 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 574F7B28
+P 1600 5200
+F 0 "#PWR01" H 1600 4950 50  0001 C CNN
+F 1 "GND" H 1600 5050 50  0000 C CNN
+F 2 "" H 1600 5200 50  0000 C CNN
+F 3 "" H 1600 5200 50  0000 C CNN
+	1    1600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 574F7BA2
+P 1300 5200
+F 0 "#PWR02" H 1300 5050 50  0001 C CNN
+F 1 "+3.3V" H 1300 5340 50  0000 C CNN
+F 2 "" H 1300 5200 50  0000 C CNN
+F 3 "" H 1300 5200 50  0000 C CNN
+	1    1300 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4750 4550 4750
+Wire Wire Line
+	4550 5200 4550 5050
+Text Label 1600 5200 0    39   ~ 0
+GND
+Text Label 1300 5200 0    39   ~ 0
+3V3
+Text Label 4000 5050 0    39   ~ 0
+GND
+$Comp
+L +5V #PWR03
+U 1 1 5751121A
+P 1050 5200
+F 0 "#PWR03" H 1050 5050 50  0001 C CNN
+F 1 "+5V" H 1050 5340 50  0000 C CNN
+F 2 "" H 1050 5200 50  0000 C CNN
+F 3 "" H 1050 5200 50  0000 C CNN
+	1    1050 5200
+	1    0    0    -1  
+$EndComp
+Text Label 1050 5200 0    39   ~ 0
+5V
+Text Label 4000 4450 0    39   ~ 0
+5V
+Text Label 4150 5200 2    39   ~ 0
+GND
+Text Label 3800 4850 2    39   ~ 0
+V_BAT
+$Comp
+L POT RV1
+U 1 1 57520E44
+P 3350 4650
+F 0 "RV1" H 3350 4570 50  0000 C CNN
+F 1 "POT_BAT_LOW" H 3350 4500 50  0000 C CNN
+F 2 "Discret:RV2X4" H 3350 4650 50  0001 C CNN
+F 3 "" H 3350 4650 50  0000 C CNN
+	1    3350 4650
+	0    1    1    0   
+$EndComp
+Text Label 3350 4500 0    39   ~ 0
+5V
+Text Label 3350 4900 2    39   ~ 0
+GND
+Wire Wire Line
+	3350 4900 3350 4800
+Wire Wire Line
+	3500 4650 3800 4650
+$Comp
+L Ampli_Audio U2
+U 1 1 57530005
+P 1300 6050
+F 0 "U2" H 1300 6500 60  0000 C CNN
+F 1 "Ampli_Audio" H 1300 6050 60  0000 C CNN
+F 2 "GameBoy:ampli_audio" H 1350 5550 60  0001 C CNN
+F 3 "" H 1350 5550 60  0000 C CNN
+	1    1300 6050
+	1    0    0    -1  
+$EndComp
+Text Label 1900 6250 0    39   ~ 0
+SPR
+Text Label 1700 7250 2    39   ~ 0
+J_SPL
+Text Label 1700 7150 2    39   ~ 0
+J_SPGND
+Text Label 1900 5750 0    39   ~ 0
+SP_GND
+Text Label 1900 5850 0    39   ~ 0
+SPL
+Text Label 700  6250 2    39   ~ 0
+5V
+Text Label 700  6350 2    39   ~ 0
+GND
+Text Label 700  5850 2    39   ~ 0
+GND
+Text Label 1900 6350 0    39   ~ 0
+SP_GND
+Text Label 1700 7350 2    39   ~ 0
+J_SPR
+$Comp
+L JACK_GB_5PINS J1
+U 1 1 57547948
+P 2100 7050
+F 0 "J1" H 2100 7450 50  0000 C CNN
+F 1 "JACK_GB_5PINS" H 2050 6750 50  0000 C CNN
+F 2 "GameBoy:Jack" H 2200 6900 50  0001 C CNN
+F 3 "" H 2200 6900 50  0000 C CNN
+	1    2100 7050
+	-1   0    0    1   
+$EndComp
+Text Label 2300 5650 2    39   ~ 0
+SPRB
+Text Label 2300 5850 2    39   ~ 0
+SP_GND
+Text Label 1700 6950 2    39   ~ 0
+J_SPRB
+Text Label 1700 7050 2    39   ~ 0
+J_SPR
+Text Label 2350 6500 2    39   ~ 0
+SPL
+Text Label 2350 6300 2    39   ~ 0
+SP_GND
+Text Label 2350 6400 2    39   ~ 0
+SPR
+Text Label 2350 6200 2    39   ~ 0
+SPRB
+$Comp
+L CONN_01X04 P50
+U 1 1 57566359
+P 2550 6350
+F 0 "P50" H 2550 6600 50  0000 C CNN
+F 1 "CONN_BTN_JACK" V 2650 6350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2550 6350 50  0001 C CNN
+F 3 "" H 2550 6350 50  0000 C CNN
+	1    2550 6350
+	1    0    0    -1  
+$EndComp
+Text Label 1150 6950 0    39   ~ 0
+J_SPL
+Text Label 1150 7150 0    39   ~ 0
+J_SPGND
+Text Label 1150 7050 0    39   ~ 0
+J_SPR
+Text Label 1150 7250 0    39   ~ 0
+J_SPRB
+$Comp
+L CONN_01X04 P48
+U 1 1 5756D92E
+P 950 7100
+F 0 "P48" H 950 7350 50  0000 C CNN
+F 1 "CONN_JACK_BTN" V 1050 7100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 950 7100 50  0001 C CNN
+F 3 "" H 950 7100 50  0000 C CNN
+	1    950  7100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P51
+U 1 1 5758B986
+P 1950 4450
+F 0 "P51" H 1950 4550 50  0000 C CNN
+F 1 "3V3" V 2050 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1950 4450 50  0001 C CNN
+F 3 "" H 1950 4450 50  0000 C CNN
+	1    1950 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 1950 4650 0    39   ~ 0
+3V3
+$Comp
+L CONN_01X01 P52
+U 1 1 5758C994
+P 2800 4450
+F 0 "P52" H 2800 4550 50  0000 C CNN
+F 1 "5V" V 2900 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2800 4450 50  0001 C CNN
+F 3 "" H 2800 4450 50  0000 C CNN
+	1    2800 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 2800 4650 0    39   ~ 0
+5V
+Text Label 4400 5850 0    39   ~ 0
+STICK_Y
+Text Label 4400 5950 0    39   ~ 0
+STICK_X
+Text Label 3800 7250 3    39   ~ 0
+GND
+$Comp
+L TL081 U1
+U 1 1 575351EC
+P 4100 4750
+F 0 "U1" H 4100 5000 50  0000 L CNN
+F 1 "TL081" H 4100 4900 50  0000 L CNN
+F 2 "Power_Integrations:PDIP-8" H 4150 4950 50  0001 C CNN
+F 3 "" H 4100 5000 50  0000 C CNN
+	1    4100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P21
+U 1 1 57536EBA
+P 2200 4450
+F 0 "P21" H 2200 4550 50  0000 C CNN
+F 1 "3V3" V 2300 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2200 4450 50  0001 C CNN
+F 3 "" H 2200 4450 50  0000 C CNN
+	1    2200 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 2200 4650 0    39   ~ 0
+3V3
+$Comp
+L CONN_01X01 P55
+U 1 1 57536EC1
+P 2550 4450
+F 0 "P55" H 2550 4550 50  0000 C CNN
+F 1 "5V" V 2650 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2550 4450 50  0001 C CNN
+F 3 "" H 2550 4450 50  0000 C CNN
+	1    2550 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 2550 4650 0    39   ~ 0
+5V
+$Comp
+L CONN_01X01 P16
+U 1 1 57538D24
+P 1950 4850
+F 0 "P16" H 1950 4950 50  0000 C CNN
+F 1 "3V3" V 2050 4850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1950 4850 50  0001 C CNN
+F 3 "" H 1950 4850 50  0000 C CNN
+	1    1950 4850
+	0    -1   -1   0   
+$EndComp
+Text Label 1950 5050 0    39   ~ 0
+3V3
+$Comp
+L CONN_01X01 P60
+U 1 1 57538D2B
+P 2800 4850
+F 0 "P60" H 2800 4950 50  0000 C CNN
+F 1 "5V" V 2900 4850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2800 4850 50  0001 C CNN
+F 3 "" H 2800 4850 50  0000 C CNN
+	1    2800 4850
+	0    -1   -1   0   
+$EndComp
+Text Label 2800 5050 0    39   ~ 0
+5V
+$Comp
+L CONN_01X01 P23
+U 1 1 57538D32
+P 2200 4850
+F 0 "P23" H 2200 4950 50  0000 C CNN
+F 1 "3V3" V 2300 4850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0000 C CNN
+	1    2200 4850
+	0    -1   -1   0   
+$EndComp
+Text Label 2200 5050 0    39   ~ 0
+3V3
+$Comp
+L CONN_01X01 P56
+U 1 1 57538D39
+P 2550 4850
+F 0 "P56" H 2550 4950 50  0000 C CNN
+F 1 "5V" V 2650 4850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2550 4850 50  0001 C CNN
+F 3 "" H 2550 4850 50  0000 C CNN
+	1    2550 4850
+	0    -1   -1   0   
+$EndComp
+Text Label 2550 5050 0    39   ~ 0
+5V
+Text Label 700  5750 2    39   ~ 0
+SPL_IN
+Text Label 700  5950 2    39   ~ 0
+SPR_IN
+Text Label 9550 3050 0    39   ~ 0
+SPL_IN_PI
+Text Label 9550 3150 0    39   ~ 0
+SPR_IN_PI
+$Comp
+L CONN_01X01 P1
+U 1 1 57554532
+P 700 4800
+F 0 "P1" H 700 4900 50  0000 C CNN
+F 1 "GND" V 800 4800 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 700 4800 50  0001 C CNN
+F 3 "" H 700 4800 50  0000 C CNN
+	1    700  4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 57554538
+P 950 4800
+F 0 "P7" H 950 4900 50  0000 C CNN
+F 1 "GND" V 1050 4800 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 950 4800 50  0001 C CNN
+F 3 "" H 950 4800 50  0000 C CNN
+	1    950  4800
+	0    -1   -1   0   
+$EndComp
+Text Label 700  5000 0    39   ~ 0
+GND
+Text Label 950  5000 0    39   ~ 0
+GND
+$Comp
+L CONN_02X13 P72
+U 1 1 5755A61C
+P 6800 4050
+F 0 "P72" H 6800 4750 50  0000 C CNN
+F 1 "PI" V 6800 4050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x20" H 6800 3100 50  0001 C CNN
+F 3 "" H 6800 3100 50  0000 C CNN
+	1    6800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X13 P73
+U 1 1 5755B1E1
+P 8100 4050
+F 0 "P73" H 8100 4750 50  0000 C CNN
+F 1 "SCREEEN" V 8100 4050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x13" H 8100 2900 50  0001 C CNN
+F 3 "" H 8100 2900 50  0000 C CNN
+	1    8100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P70
+U 1 1 5757C304
+P 4450 1300
+F 0 "P70" V 4650 1300 50  0000 C CNN
+F 1 "CONN_BTN_SOUND" V 4550 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4450 1300 50  0001 C CNN
+F 3 "" H 4450 1300 50  0000 C CNN
+	1    4450 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 7050 3450 0    39   ~ 0
+PI_5V
+Text Label 6550 3450 2    39   ~ 0
+PI1_3V3
+Text Label 7050 3550 0    39   ~ 0
+PI_5V
+Text Label 7050 3650 0    39   ~ 0
+PI_GND
+Text Label 6550 3850 2    39   ~ 0
+PI_GND
+Text Label 7050 4050 0    39   ~ 0
+PI_GND
+Text Label 7050 4350 0    39   ~ 0
+PI_GND
+Text Label 6550 4650 2    39   ~ 0
+PI_GND
+Text Label 6550 4250 2    39   ~ 0
+PI17_3V3
+Text Label 6550 3950 2    39   ~ 0
+TP_IRQ
+Text Label 7050 4250 0    39   ~ 0
+LCD_RS
+Text Label 6550 4350 2    39   ~ 0
+SCREEN_IN
+Text Label 6550 4450 2    39   ~ 0
+SCREEN_OUT
+Text Label 7050 4450 0    39   ~ 0
+RST
+Text Label 6550 4550 2    39   ~ 0
+SCREEN_CLK
+Text Label 7050 4550 0    39   ~ 0
+LCD_CS
+Text Label 7050 4650 0    39   ~ 0
+TP_CS
+Text Label 7850 3450 2    39   ~ 0
+PI1_3V3
+Text Label 7850 3850 2    39   ~ 0
+PI_GND
+Text Label 7850 4650 2    39   ~ 0
+PI_GND
+Text Label 7850 4250 2    39   ~ 0
+PI17_3V3
+Text Label 7850 3950 2    39   ~ 0
+TP_IRQ
+Text Label 7850 4350 2    39   ~ 0
+SCREEN_IN
+Text Label 7850 4450 2    39   ~ 0
+SCREEN_OUT
+Text Label 7850 4550 2    39   ~ 0
+SCREEN_CLK
+Text Label 8350 3450 0    39   ~ 0
+PI_5V
+Text Label 8350 3550 0    39   ~ 0
+PI_5V
+Text Label 8350 3650 0    39   ~ 0
+PI_GND
+Text Label 8350 4050 0    39   ~ 0
+PI_GND
+Text Label 8350 4350 0    39   ~ 0
+PI_GND
+Text Label 8350 4250 0    39   ~ 0
+LCD_RS
+Text Label 8350 4450 0    39   ~ 0
+RST
+Text Label 8350 4550 0    39   ~ 0
+LCD_CS
+Text Label 8350 4650 0    39   ~ 0
+TP_CS
+$Comp
+L POT RV2
+U 1 1 575BE415
+P 5900 2700
+F 0 "RV2" H 5900 2620 50  0000 C CNN
+F 1 "POT_LED" H 5900 2550 50  0000 C CNN
+F 2 "GameBoy:pot_screen" H 5900 2700 50  0001 C CNN
+F 3 "" H 5900 2700 50  0000 C CNN
+	1    5900 2700
+	0    1    1    0   
+$EndComp
+Text Label 9200 3600 2    39   ~ 0
+GND_USB
+Text Label 5900 2850 0    39   ~ 0
+LED_GND
+Text Label 5900 2550 0    39   ~ 0
+LED_POWER
+$Comp
+L CONN_01X01 P71
+U 1 1 575CACEB
+P 6500 2250
+F 0 "P71" H 6500 2350 50  0000 C CNN
+F 1 "LED_SCREEN" V 6600 2250 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 6500 2250 50  0001 C CNN
+F 3 "" H 6500 2250 50  0000 C CNN
+	1    6500 2250
+	0    -1   -1   0   
+$EndComp
+Text Label 6050 2700 0    39   ~ 0
+LED_SCREEN
+Text Label 6500 2450 0    39   ~ 0
+LED_SCREEN
+$Comp
+L Teensy U3
+U 1 1 5761BCD7
+P 3800 6450
+F 0 "U3" H 3800 6450 60  0000 C CNN
+F 1 "Teensy" H 3800 6250 60  0000 C CNN
+F 2 "GameBoy:Teensy" H 3800 6450 60  0001 C CNN
+F 3 "" H 3800 6450 60  0000 C CNN
+	1    3800 6450
+	1    0    0    -1  
+$EndComp
+Text Label 4400 5750 0    39   ~ 0
+5V
+NoConn ~ 3900 7250
+Text Label 3200 5750 2    39   ~ 0
+GND
+Text Label 3700 7250 3    39   ~ 0
+5V
+Text Label 3200 5950 2    39   ~ 0
+TURBO
+Text Label 4400 6450 0    39   ~ 0
+SAVE
+Text Label 3200 6550 2    39   ~ 0
+LOAD
+Text Label 3200 6050 2    39   ~ 0
+MENU
+Text Label 3200 6150 2    39   ~ 0
+EXIT
+Text Label 3200 5850 2    39   ~ 0
+HKEY
+NoConn ~ 4400 6250
+NoConn ~ 3200 6250
+Text Label 4400 6350 0    39   ~ 0
+OTHER0
+Text Label 4400 6050 0    39   ~ 0
+OTHER1
+Text Label 4400 6150 0    39   ~ 0
+OTHER2
+$Comp
+L pot_sound RV3
+U 1 1 576352FE
+P 9200 3100
+F 0 "RV3" V 8900 3100 60  0000 C CNN
+F 1 "pot_sound" V 9000 3100 60  0000 C CNN
+F 2 "GameBoy:pot_sound" H 9200 3100 60  0001 C CNN
+F 3 "" H 9200 3100 60  0000 C CNN
+	1    9200 3100
+	1    0    0    -1  
+$EndComp
+Text Label 9250 2600 1    39   ~ 0
+SPL_BEF
+Text Label 9150 2600 1    39   ~ 0
+SPR_BEF
+$Comp
+L CONN_01X02 P75
+U 1 1 57638B2F
+P 10100 2550
+F 0 "P75" H 10100 2700 50  0000 C CNN
+F 1 "SP_PI_JACK" V 10200 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10100 2550 50  0001 C CNN
+F 3 "" H 10100 2550 50  0000 C CNN
+	1    10100 2550
+	0    -1   -1   0   
+$EndComp
+Text Label 10050 2750 3    39   ~ 0
+SPR_BEF
+Text Label 10150 2750 3    39   ~ 0
+SPL_BEF
+Text Notes 2950 5600 0    60   ~ 0
+USB wired between Teensy and Pi USB
+NoConn ~ 4400 6950
+Text Notes 4450 6950 0    39   ~ 0
+LED
+Text Notes 9900 2400 0    39   ~ 0
+From Pi Jack
+Text Label 700  5350 0    39   ~ 0
+V_BAT
+$Comp
+L CONN_01X01 P2
+U 1 1 5766571B
+P 700 5150
+F 0 "P2" H 700 5250 50  0000 C CNN
+F 1 "V_BAT" V 800 5150 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 700 5150 50  0001 C CNN
+F 3 "" H 700 5150 50  0000 C CNN
+	1    700  5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P57
+U 1 1 5767AE17
+P 2750 2700
+F 0 "P57" H 2750 2800 50  0000 C CNN
+F 1 "MENU" V 2850 2700 50  0000 C CNN
+F 2 "GameBoy:button_round" H 2750 2700 50  0001 C CNN
+F 3 "" H 2750 2700 50  0000 C CNN
+	1    2750 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 2700 2900 2    39   ~ 0
+MENU_2
+Text Label 2800 2900 0    39   ~ 0
+GND_MENU
+$Comp
+L CONN_01X01 P24
+U 1 1 5767AE1F
+P 2450 2700
+F 0 "P24" H 2450 2800 50  0000 C CNN
+F 1 "MENU" V 2550 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2450 2700 50  0001 C CNN
+F 3 "" H 2450 2700 50  0000 C CNN
+	1    2450 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 2450 2900 2    39   ~ 0
+MENU_2
+$Comp
+L CONN_01X01 P62
+U 1 1 5767AE26
+P 3200 2700
+F 0 "P62" H 3200 2800 50  0000 C CNN
+F 1 "GND" V 3300 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 3200 2700 50  0001 C CNN
+F 3 "" H 3200 2700 50  0000 C CNN
+	1    3200 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 3200 2900 0    39   ~ 0
+GND_MENU
+$Comp
+L CONN_01X01 P66
+U 1 1 5767AE2D
+P 3600 2700
+F 0 "P66" H 3600 2800 50  0000 C CNN
+F 1 "GND" V 3700 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0000 C CNN
+	1    3600 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 2900 0    39   ~ 0
+GND_MENU
+$Comp
+L CONN_01X02 P58
+U 1 1 57682988
+P 2750 3050
+F 0 "P58" H 2750 3150 50  0000 C CNN
+F 1 "EXIT" V 2850 3050 50  0000 C CNN
+F 2 "GameBoy:button_round" H 2750 3050 50  0001 C CNN
+F 3 "" H 2750 3050 50  0000 C CNN
+	1    2750 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 2700 3250 2    39   ~ 0
+EXIT_2
+Text Label 2800 3250 0    39   ~ 0
+GND_EXIT
+$Comp
+L CONN_01X01 P49
+U 1 1 57682990
+P 2450 3050
+F 0 "P49" H 2450 3150 50  0000 C CNN
+F 1 "EXIT" V 2550 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2450 3050 50  0001 C CNN
+F 3 "" H 2450 3050 50  0000 C CNN
+	1    2450 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 2450 3250 2    39   ~ 0
+EXIT_2
+$Comp
+L CONN_01X01 P63
+U 1 1 57682997
+P 3200 3050
+F 0 "P63" H 3200 3150 50  0000 C CNN
+F 1 "GND" V 3300 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 3200 3050 50  0001 C CNN
+F 3 "" H 3200 3050 50  0000 C CNN
+	1    3200 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 3200 3250 0    39   ~ 0
+GND_EXIT
+$Comp
+L CONN_01X01 P67
+U 1 1 5768299E
+P 3600 3050
+F 0 "P67" H 3600 3150 50  0000 C CNN
+F 1 "GND" V 3700 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 3600 3050 50  0001 C CNN
+F 3 "" H 3600 3050 50  0000 C CNN
+	1    3600 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 3250 0    39   ~ 0
+GND_EXIT
+$Comp
+L CONN_01X02 P59
+U 1 1 57687303
+P 2750 3400
+F 0 "P59" H 2750 3500 50  0000 C CNN
+F 1 "HKEY" V 2850 3400 50  0000 C CNN
+F 2 "GameBoy:button_round" H 2750 3400 50  0001 C CNN
+F 3 "" H 2750 3400 50  0000 C CNN
+	1    2750 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 2700 3600 2    39   ~ 0
+HKEY_2
+Text Label 2800 3600 0    39   ~ 0
+GND_HKEY
+$Comp
+L CONN_01X01 P53
+U 1 1 5768730B
+P 2450 3400
+F 0 "P53" H 2450 3500 50  0000 C CNN
+F 1 "HKEY" V 2550 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2450 3400 50  0001 C CNN
+F 3 "" H 2450 3400 50  0000 C CNN
+	1    2450 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 2450 3600 2    39   ~ 0
+HKEY_2
+$Comp
+L CONN_01X01 P64
+U 1 1 57687312
+P 3200 3400
+F 0 "P64" H 3200 3500 50  0000 C CNN
+F 1 "GND" V 3300 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 3200 3400 50  0001 C CNN
+F 3 "" H 3200 3400 50  0000 C CNN
+	1    3200 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 3200 3600 0    39   ~ 0
+GND_HKEY
+$Comp
+L CONN_01X01 P68
+U 1 1 57687319
+P 3600 3400
+F 0 "P68" H 3600 3500 50  0000 C CNN
+F 1 "GND" V 3700 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0000 C CNN
+	1    3600 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 3600 0    39   ~ 0
+GND_HKEY
+$Comp
+L CONN_01X01 P3
+U 1 1 57692852
+P 1650 3850
+F 0 "P3" H 1650 3950 50  0000 C CNN
+F 1 "OTHER1" V 1750 3850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1650 3850 50  0001 C CNN
+F 3 "" H 1650 3850 50  0000 C CNN
+	1    1650 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 1650 4050 2    39   ~ 0
+OTHER1
+$Comp
+L CONN_01X01 P9
+U 1 1 57692E77
+P 1900 3850
+F 0 "P9" H 1900 3950 50  0000 C CNN
+F 1 "GND" V 2000 3850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1900 3850 50  0001 C CNN
+F 3 "" H 1900 3850 50  0000 C CNN
+	1    1900 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 1900 4050 0    39   ~ 0
+GND
+Text Notes 1600 4250 0    60   ~ 0
+Alimentation
+Text Notes 1750 600  0    60   ~ 0
+Principale buttons
+$Comp
+L CONN_01X01 P13
+U 1 1 576AC7E9
+P 2350 3850
+F 0 "P13" H 2350 3950 50  0000 C CNN
+F 1 "OTHER2" V 2450 3850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2350 3850 50  0001 C CNN
+F 3 "" H 2350 3850 50  0000 C CNN
+	1    2350 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 4050 2    39   ~ 0
+OTHER2
+$Comp
+L CONN_01X01 P17
+U 1 1 576AC7F0
+P 2600 3850
+F 0 "P17" H 2600 3950 50  0000 C CNN
+F 1 "GND" V 2700 3850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2600 3850 50  0001 C CNN
+F 3 "" H 2600 3850 50  0000 C CNN
+	1    2600 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 2600 4050 0    39   ~ 0
+GND
+$Comp
+L CONN_01X01 P61
+U 1 1 576AC897
+P 850 3850
+F 0 "P61" H 850 3950 50  0000 C CNN
+F 1 "OTHER0" V 950 3850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 850 3850 50  0001 C CNN
+F 3 "" H 850 3850 50  0000 C CNN
+	1    850  3850
+	0    -1   -1   0   
+$EndComp
+Text Label 850  4050 2    39   ~ 0
+OTHER0
+$Comp
+L CONN_01X01 P65
+U 1 1 576AC89E
+P 1100 3850
+F 0 "P65" H 1100 3950 50  0000 C CNN
+F 1 "GND" V 1200 3850 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1100 3850 50  0001 C CNN
+F 3 "" H 1100 3850 50  0000 C CNN
+	1    1100 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 1100 4050 0    39   ~ 0
+GND
+Text Notes 1800 2500 0    60   ~ 0
+Second buttons
+Wire Notes Line
+	500  2350 3900 2350
+Wire Notes Line
+	3900 4100 3900 500 
+Wire Notes Line
+	550  4100 4800 4100
+Wire Notes Line
+	3000 4100 3000 5450
+Wire Notes Line
+	500  5450 4800 5450
+Wire Notes Line
+	500  6650 2900 6650
+Wire Notes Line
+	500  7500 4800 7500
+Text Label 3550 4650 0    39   ~ 0
+V_REF
+Text Label 4400 4750 0    39   ~ 0
+V_LED
+Text Notes 1400 5600 0    60   ~ 0
+Ampli audio
+Text Notes 1150 6800 0    60   ~ 0
+Jack out
+Wire Notes Line
+	2900 5450 2900 7500
+Wire Notes Line
+	5100 500  5100 7800
+Text Notes 3550 4350 0    60   ~ 0
+Batterie level indicator
+Wire Notes Line
+	4800 7500 4800 4100
+Text Label 10150 3400 3    39   ~ 0
+SPL_IN_PI
+Text Label 10050 3400 3    39   ~ 0
+SPR_IN_PI
+$Comp
+L SPEAKER SP1
+U 1 1 577140AE
+P 2600 5750
+F 0 "SP1" H 2500 6000 50  0000 C CNN
+F 1 "SPEAKER" H 2500 5500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2600 5750 50  0001 C CNN
+F 3 "" H 2600 5750 50  0000 C CNN
+	1    2600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P74
+U 1 1 57727135
+P 10100 3200
+F 0 "P74" V 10300 3200 50  0000 C CNN
+F 1 "SP_PI_BTN" V 10200 3200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 10100 3200 50  0001 C CNN
+F 3 "" H 10100 3200 50  0000 C CNN
+	1    10100 3200
+	0    -1   -1   0   
+$EndComp
+Text Label 4500 1500 3    39   ~ 0
+SPL_IN
+Text Label 4400 1500 3    39   ~ 0
+SPR_IN
+Text Notes 5450 7350 0    60   ~ 0
+Need to connect :\nUSB Teensy to USB Pi\nUSB external to USB Pi\nCharger power IN to battery\nBuck battery to 5V
+$Comp
+L CONN_01X01 P10
+U 1 1 5764571B
+P 1850 1200
+F 0 "P10" H 1850 1300 50  0000 C CNN
+F 1 "L" V 1950 1200 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1850 1200 50  0001 C CNN
+F 3 "" H 1850 1200 50  0000 C CNN
+	1    1850 1200
+	0    -1   -1   0   
+$EndComp
+Text Label 1850 1400 3    39   ~ 0
+L_2
+$Comp
+L CONN_01X01 P54
+U 1 1 5765748A
+P 2350 1200
+F 0 "P54" H 2350 1300 50  0000 C CNN
+F 1 "R" V 2450 1200 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 2350 1200 50  0001 C CNN
+F 3 "" H 2350 1200 50  0000 C CNN
+	1    2350 1200
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 1400 3    39   ~ 0
+R_2
+$Comp
+L CONN_01X01 P76
+U 1 1 5766B189
+P 4250 3050
+F 0 "P76" H 4250 3150 50  0000 C CNN
+F 1 "Save" V 4350 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4250 3050 50  0001 C CNN
+F 3 "" H 4250 3050 50  0000 C CNN
+	1    4250 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P69
+U 1 1 5766B18F
+P 4250 2700
+F 0 "P69" H 4250 2800 50  0000 C CNN
+F 1 "LOAD" V 4350 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4250 2700 50  0001 C CNN
+F 3 "" H 4250 2700 50  0000 C CNN
+	1    4250 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P77
+U 1 1 5766B195
+P 4250 3400
+F 0 "P77" H 4250 3500 50  0000 C CNN
+F 1 "Turbo" V 4350 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4250 3400 50  0001 C CNN
+F 3 "" H 4250 3400 50  0000 C CNN
+	1    4250 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 4250 2900 2    39   ~ 0
+LOAD
+Text Label 4250 3250 2    39   ~ 0
+SAVE
+Text Label 4250 3600 2    39   ~ 0
+TURBO
+$Comp
+L CONN_01X01 P78
+U 1 1 5766C208
+P 4600 2700
+F 0 "P78" H 4600 2800 50  0000 C CNN
+F 1 "MENU" V 4700 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4600 2700 50  0001 C CNN
+F 3 "" H 4600 2700 50  0000 C CNN
+	1    4600 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 2900 2    39   ~ 0
+MENU
+$Comp
+L CONN_01X01 P79
+U 1 1 5766C20F
+P 4600 3050
+F 0 "P79" H 4600 3150 50  0000 C CNN
+F 1 "EXIT" V 4700 3050 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4600 3050 50  0001 C CNN
+F 3 "" H 4600 3050 50  0000 C CNN
+	1    4600 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 3250 2    39   ~ 0
+EXIT
+$Comp
+L CONN_01X01 P80
+U 1 1 5766C216
+P 4600 3400
+F 0 "P80" H 4600 3500 50  0000 C CNN
+F 1 "HKEY" V 4700 3400 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4600 3400 50  0001 C CNN
+F 3 "" H 4600 3400 50  0000 C CNN
+	1    4600 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 3600 2    39   ~ 0
+HKEY
+$Comp
+L CONN_01X01 P81
+U 1 1 5766C953
+P 4950 2700
+F 0 "P81" H 4950 2800 50  0000 C CNN
+F 1 "L" V 5050 2700 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4950 2700 50  0001 C CNN
+F 3 "" H 4950 2700 50  0000 C CNN
+	1    4950 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 4950 2900 2    39   ~ 0
+L
+$Comp
+L CONN_01X01 P82
+U 1 1 5766CA63
+P 4950 3250
+F 0 "P82" H 4950 3350 50  0000 C CNN
+F 1 "R" V 5050 3250 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 4950 3250 50  0001 C CNN
+F 3 "" H 4950 3250 50  0000 C CNN
+	1    4950 3250
+	0    -1   -1   0   
+$EndComp
+Text Label 4950 3450 2    39   ~ 0
+R
+$Comp
+L Hole P97
+U 1 1 5767AC82
+P 10400 6350
+F 0 "P97" H 10400 6450 50  0000 C CNN
+F 1 "H_HCK1" V 10500 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 10400 6350 50  0001 C CNN
+F 3 "" H 10400 6350 50  0000 C CNN
+	1    10400 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P96
+U 1 1 5767AD12
+P 10100 6350
+F 0 "P96" H 10100 6450 50  0000 C CNN
+F 1 "H_SV2" V 10200 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 10100 6350 50  0001 C CNN
+F 3 "" H 10100 6350 50  0000 C CNN
+	1    10100 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P95
+U 1 1 5767AD18
+P 9850 6350
+F 0 "P95" H 9850 6450 50  0000 C CNN
+F 1 "H_SV1" V 9950 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 9850 6350 50  0001 C CNN
+F 3 "" H 9850 6350 50  0000 C CNN
+	1    9850 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P86
+U 1 1 5768E477
+P 1500 750
+F 0 "P86" H 1500 850 50  0000 C CNN
+F 1 "HOLE_R" V 1600 750 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 1500 750 50  0001 C CNN
+F 3 "" H 1500 750 50  0000 C CNN
+	1    1500 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P85
+U 1 1 5767AE2C
+P 1200 750
+F 0 "P85" H 1200 850 50  0000 C CNN
+F 1 "HOLE_R" V 1300 750 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 1200 750 50  0001 C CNN
+F 3 "" H 1200 750 50  0000 C CNN
+	1    1200 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P84
+U 1 1 5767AE32
+P 900 750
+F 0 "P84" H 900 850 50  0000 C CNN
+F 1 "HOLE_L" V 1000 750 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 900 750 50  0001 C CNN
+F 3 "" H 900 750 50  0000 C CNN
+	1    900  750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P83
+U 1 1 5767AE38
+P 600 750
+F 0 "P83" H 600 850 50  0000 C CNN
+F 1 "HOLE_L" V 700 750 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 600 750 50  0001 C CNN
+F 3 "" H 600 750 50  0000 C CNN
+	1    600  750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P93
+U 1 1 57682E10
+P 9600 6350
+F 0 "P93" H 9600 6450 50  0000 C CNN
+F 1 "H_XT" V 9700 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 9600 6350 50  0001 C CNN
+F 3 "" H 9600 6350 50  0000 C CNN
+	1    9600 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P92
+U 1 1 57682E16
+P 9350 6350
+F 0 "P92" H 9350 6450 50  0000 C CNN
+F 1 "H_MN2" V 9450 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 9350 6350 50  0001 C CNN
+F 3 "" H 9350 6350 50  0000 C CNN
+	1    9350 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P91
+U 1 1 57682E1C
+P 9100 6350
+F 0 "P91" H 9100 6450 50  0000 C CNN
+F 1 "H_MN1" V 9200 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 9100 6350 50  0001 C CNN
+F 3 "" H 9100 6350 50  0000 C CNN
+	1    9100 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P90
+U 1 1 57682F92
+P 8800 6350
+F 0 "P90" H 8800 6450 50  0000 C CNN
+F 1 "H_TRB2" V 8900 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 8800 6350 50  0001 C CNN
+F 3 "" H 8800 6350 50  0000 C CNN
+	1    8800 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P89
+U 1 1 57682F98
+P 8500 6350
+F 0 "P89" H 8500 6450 50  0000 C CNN
+F 1 "H_TRB1" V 8600 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 8500 6350 50  0001 C CNN
+F 3 "" H 8500 6350 50  0000 C CNN
+	1    8500 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Hole P88
+U 1 1 57682F9E
+P 8250 6350
+F 0 "P88" H 8250 6450 50  0000 C CNN
+F 1 "H_LD2" V 8350 6350 50  0000 C CNN
+F 2 "GameBoy:Hole_1mm" H 8250 6350 50  0001 C CNN
+F 3 "" H 8250 6350 50  0000 C CNN
+	1    8250 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch_GB SW1
+U 1 1 57647662
+P 6600 1100
+F 0 "SW1" H 6900 1150 50  0000 C CNN
+F 1 "Switch_GB" H 6900 1050 50  0000 C CNN
+F 2 "GameBoy:Switch_GB" H 6600 1100 50  0001 C CNN
+F 3 "" H 6600 1100 50  0000 C CNN
+	1    6600 1100
+	-1   0    0    -1  
+$EndComp
+Text Label 6300 900  2    39   ~ 0
+5V_IN
+NoConn ~ 6900 1300
+NoConn ~ 6300 1300
+$Comp
+L CONN_01X01 P100
+U 1 1 5764B2C0
+P 7450 900
+F 0 "P100" H 7450 1000 50  0000 C CNN
+F 1 "5V_OUT" V 7550 900 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 7450 900 50  0001 C CNN
+F 3 "" H 7450 900 50  0000 C CNN
+	1    7450 900 
+	0    -1   -1   0   
+$EndComp
+Text Label 7450 1100 0    39   ~ 0
+5V_OUT
+$Comp
+L CONN_01X01 P99
+U 1 1 5764D13B
+P 5700 900
+F 0 "P99" H 5700 1000 50  0000 C CNN
+F 1 "5V_IN" V 5800 900 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 5700 900 50  0001 C CNN
+F 3 "" H 5700 900 50  0000 C CNN
+	1    5700 900 
+	0    -1   -1   0   
+$EndComp
+Text Label 5700 1100 0    39   ~ 0
+5V_IN
+Text Label 6900 900  0    39   ~ 0
+5V_OUT
+$Comp
+L Battery BT1
+U 1 1 57652B05
+P 5800 1700
+F 0 "BT1" H 5900 1750 50  0000 L CNN
+F 1 "Battery" H 5900 1650 50  0000 L CNN
+F 2 "GameBoy:charger_bat" V 5800 1740 50  0001 C CNN
+F 3 "" V 5800 1740 50  0000 C CNN
+	1    5800 1700
+	1    0    0    -1  
+$EndComp
+Text Label 5800 1550 0    39   ~ 0
+V_BAT_CHARGE
+Text Label 5800 1850 0    39   ~ 0
+GND_BAT
+$Comp
+L CONN_01X01 P102
+U 1 1 57648D4D
+P 6550 1650
+F 0 "P102" H 6550 1750 50  0000 C CNN
+F 1 "V_BAT_CHARGE" V 6650 1650 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 6550 1650 50  0001 C CNN
+F 3 "" H 6550 1650 50  0000 C CNN
+	1    6550 1650
+	0    -1   -1   0   
+$EndComp
+Text Label 6550 1850 0    39   ~ 0
+V_BAT_CHARGE
+$Comp
+L CONN_01X01 P103
+U 1 1 57648DE0
+P 7100 1650
+F 0 "P103" H 7100 1750 50  0000 C CNN
+F 1 "GND_BAT" V 7200 1650 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 7100 1650 50  0001 C CNN
+F 3 "" H 7100 1650 50  0000 C CNN
+	1    7100 1650
+	0    -1   -1   0   
+$EndComp
+Text Label 7100 1850 0    39   ~ 0
+GND_BAT
+$Comp
+L USB_A P104
+U 1 1 5765210D
+P 10100 1350
+F 0 "P104" H 10300 1150 50  0000 C CNN
+F 1 "USB_A" H 10050 1550 50  0000 C CNN
+F 2 "Connect:USB_A" V 10050 1250 50  0001 C CNN
+F 3 "" V 10050 1250 50  0000 C CNN
+	1    10100 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X04 P101
+U 1 1 57652B4B
+P 8950 1300
+F 0 "P101" H 8950 1550 50  0000 C CNN
+F 1 "USB" V 9050 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8950 1300 50  0001 C CNN
+F 3 "" H 8950 1300 50  0000 C CNN
+	1    8950 1300
+	-1   0    0    -1  
+$EndComp
+Text Label 10200 1650 3    39   ~ 0
+GND_USB
+Text Label 9800 1450 2    39   ~ 0
+GND_USB
+Text Label 9800 1350 2    39   ~ 0
+D+_USB
+Text Label 9800 1250 2    39   ~ 0
+D-_USB
+Text Label 9800 1150 2    39   ~ 0
+5V_USB
+Text Label 9150 1450 0    39   ~ 0
+GND_USB
+Text Label 9150 1350 0    39   ~ 0
+D+_USB
+Text Label 9150 1250 0    39   ~ 0
+D-_USB
+Text Label 9150 1150 0    39   ~ 0
+5V_USB
+$Comp
+L CONN_01X01 P105
+U 1 1 5765CFFA
+P 9600 3450
+F 0 "P105" H 9600 3550 50  0000 C CNN
+F 1 "GND_USB" V 9700 3450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 9600 3450 50  0001 C CNN
+F 3 "" H 9600 3450 50  0000 C CNN
+	1    9600 3450
+	0    -1   -1   0   
+$EndComp
+Text Label 9600 3650 0    39   ~ 0
+GND_USB
+Text Label 6550 3550 2    39   ~ 0
+PI_3
+Text Label 6550 3650 2    39   ~ 0
+PI_5
+Text Label 6550 3750 2    39   ~ 0
+PI_7
+Text Label 6550 4050 2    39   ~ 0
+PI_13
+Text Label 6550 4150 2    39   ~ 0
+PI_15
+Text Label 7050 4150 0    39   ~ 0
+PI_16
+Text Label 7050 3950 0    39   ~ 0
+PI_12
+Text Label 7050 3850 0    39   ~ 0
+PI_10
+Text Label 7050 3750 0    39   ~ 0
+PI_8
+Text Label 8350 3950 0    39   ~ 0
+PI_12
+Text Label 8350 3850 0    39   ~ 0
+PI_10
+Text Label 8350 3750 0    39   ~ 0
+PI_8
+Text Label 8350 4150 0    39   ~ 0
+PI_16
+Text Label 7850 4050 2    39   ~ 0
+PI_13
+Text Label 7850 4150 2    39   ~ 0
+PI_15
+Text Label 7850 3550 2    39   ~ 0
+PI_3
+Text Label 7850 3650 2    39   ~ 0
+PI_5
+Text Label 7850 3750 2    39   ~ 0
+PI_7
+Text Notes 5400 750  0    60   ~ 0
+From Buck out
+Text Notes 7150 750  0    60   ~ 0
+To Pi Power
+Text Notes 6300 1500 0    60   ~ 0
+To Battery
+$Comp
+L CONN_01X01 P106
+U 1 1 5772122E
+P 5800 3500
+F 0 "P106" H 5800 3600 50  0000 C CNN
+F 1 "PI_3V3" V 5900 3500 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 5800 3500 50  0001 C CNN
+F 3 "" H 5800 3500 50  0000 C CNN
+	1    5800 3500
+	0    -1   -1   0   
+$EndComp
+Text Label 5800 3700 0    39   ~ 0
+PI1_3V3
+$Comp
+L CONN_01X01 P107
+U 1 1 577223E1
+P 5850 3900
+F 0 "P107" H 5850 4000 50  0000 C CNN
+F 1 "PI_5V" V 5950 3900 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 5850 3900 50  0001 C CNN
+F 3 "" H 5850 3900 50  0000 C CNN
+	1    5850 3900
+	0    -1   -1   0   
+$EndComp
+Text Label 5850 4100 0    39   ~ 0
+PI_5V
+$Comp
+L CONN_01X01 P108
+U 1 1 57722A85
+P 5850 4300
+F 0 "P108" H 5850 4400 50  0000 C CNN
+F 1 "PI_GND" V 5950 4300 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 5850 4300 50  0001 C CNN
+F 3 "" H 5850 4300 50  0000 C CNN
+	1    5850 4300
+	0    -1   -1   0   
+$EndComp
+Text Label 5850 4500 0    39   ~ 0
+PI_GND
+$Comp
+L CONN_01X01 P109
+U 1 1 57721B63
+P 5900 2250
+F 0 "P109" H 5900 2350 50  0000 C CNN
+F 1 "LED_POWER" V 6000 2250 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 5900 2250 50  0001 C CNN
+F 3 "" H 5900 2250 50  0000 C CNN
+	1    5900 2250
+	0    -1   -1   0   
+$EndComp
+Text Label 5900 2450 0    39   ~ 0
+LED_POWER
+$Comp
+L CONN_01X01 P110
+U 1 1 57721E5E
+P 6600 2650
+F 0 "P110" H 6600 2750 50  0000 C CNN
+F 1 "LED_GND" V 6700 2650 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 6600 2650 50  0001 C CNN
+F 3 "" H 6600 2650 50  0000 C CNN
+	1    6600 2650
+	0    -1   -1   0   
+$EndComp
+Text Label 6600 2850 0    39   ~ 0
+LED_GND
+Text Notes 4100 1050 0    60   ~ 0
+From Pot sound
+$Comp
+L CONN_01X01 P111
+U 1 1 57758BF4
+P 1700 4450
+F 0 "P111" H 1700 4550 50  0000 C CNN
+F 1 "GND" V 1800 4450 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1700 4450 50  0001 C CNN
+F 3 "" H 1700 4450 50  0000 C CNN
+	1    1700 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 1700 4650 0    39   ~ 0
+GND
+$Comp
+L CONN_01X01 P112
+U 1 1 57758BFB
+P 1700 4800
+F 0 "P112" H 1700 4900 50  0000 C CNN
+F 1 "GND" V 1800 4800 50  0000 C CNN
+F 2 "GameBoy:header_1-2" H 1700 4800 50  0001 C CNN
+F 3 "" H 1700 4800 50  0000 C CNN
+	1    1700 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 1700 5000 0    39   ~ 0
+GND
+$EndSCHEMATC

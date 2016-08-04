@@ -1,0 +1,683 @@
+Cmp-Mod V01 Created by PcbNew   date = sam. 04 juin 2016 17:27:41 CEST
+
+BeginCmp
+TimeStamp = 5750DD33
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DAD8
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DACA
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DABD
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DAAA
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DA97
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DA7D
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DA73
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DA55
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DA46
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DA1D
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D9E3
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D86F
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D854
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D777
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D773
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D6D3
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D6CF
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D55D
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D559
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FC2
+Path = /574B91C4
+Reference = P11;
+ValeurCmp = L;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B7DB6
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B7D8D
+Path = /574CF710
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B5099
+Path = /574D0062
+Reference = P26;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F57
+Path = /574B474E
+Reference = P4;
+ValeurCmp = Left;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B50A8
+Path = /574D019F
+Reference = P29;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B50A3
+Path = /574D012F
+Reference = P28;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B509E
+Path = /574D00C8
+Reference = P27;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B5094
+Path = /574CF710
+Reference = P25;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B508F
+Path = /574B752A
+Reference = P24;
+ValeurCmp = Y;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B508A
+Path = /574B751E
+Reference = P23;
+ValeurCmp = B;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B5085
+Path = /574B4B81
+Reference = P22;
+ValeurCmp = A;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B506E
+Path = /574B7524
+Reference = P21;
+ValeurCmp = A;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B5069
+Path = /574B4B7B
+Reference = P20;
+ValeurCmp = B;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B5052
+Path = /574B4B75
+Reference = P19;
+ValeurCmp = X;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B503B
+Path = /574B4B87
+Reference = P18;
+ValeurCmp = Y;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B5024
+Path = /574B7518
+Reference = P17;
+ValeurCmp = X;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B501F
+Path = /574B7512
+Reference = P16;
+ValeurCmp = Lft;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B501A
+Path = /574B4BEA
+Reference = P15;
+ValeurCmp = Start;
+IdModule  = GameBoy:button_rectangle;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FFC
+Path = /574B91CA
+Reference = P14;
+ValeurCmp = R;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FE5
+Path = /574B7506
+Reference = P13;
+ValeurCmp = Dwn;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FE0
+Path = /574B4B9D
+Reference = P12;
+ValeurCmp = Select;
+IdModule  = GameBoy:button_rectangle;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FAB
+Path = /574B750C
+Reference = P10;
+ValeurCmp = Rgt;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FA6
+Path = /574B7500
+Reference = P9;
+ValeurCmp = Up;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4FA1
+Path = /574B4812
+Reference = P8;
+ValeurCmp = Right;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F8A
+Path = /574B7536
+Reference = P7;
+ValeurCmp = Str;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F85
+Path = /574B4843
+Reference = P6;
+ValeurCmp = Down;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F40
+Path = /574B7530
+Reference = P3;
+ValeurCmp = Sel;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F3B
+Path = /574B4CEB
+Reference = P2;
+ValeurCmp = R;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F36
+Path = /574B4C2E
+Reference = P1;
+ValeurCmp = L;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B6BF5
+Path = /574B8F82
+Reference = P30;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B6BFA
+Path = /574B8FB5
+Reference = P31;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B6BFF
+Path = /574B8FEB
+Reference = P32;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574B4F6E
+Path = /574B4898
+Reference = P5;
+ValeurCmp = Up;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F291E
+Path = /574F2F58
+Reference = P33;
+ValeurCmp = LOAD;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2923
+Path = /574F2F52
+Reference = P34;
+ValeurCmp = Save;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2928
+Path = /574F2F5E
+Reference = P35;
+ValeurCmp = Turbo;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2940
+Path = /574F276D
+Reference = P36;
+ValeurCmp = LOAD;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2958
+Path = /574F29F0
+Reference = P37;
+ValeurCmp = Save;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2970
+Path = /574F2B04
+Reference = P38;
+ValeurCmp = Turbo;
+IdModule  = GameBoy:button_round;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2975
+Path = /574F43C4
+Reference = P39;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F297A
+Path = /574F43CA
+Reference = P40;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F297F
+Path = /574F448E
+Reference = P41;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2AA8
+Path = /574F5E81
+Reference = P42;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2AAD
+Path = /574F5E87
+Reference = P43;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2AB2
+Path = /574F5D52
+Reference = P44;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2AB7
+Path = /574F5D95
+Reference = P45;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 574F2ABC
+Path = /574F5DDB
+Reference = P46;
+ValeurCmp = GND;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750A679
+Path = /57520E44
+Reference = RV1;
+ValeurCmp = POT_BAT_LOW;
+IdModule  = Discret:RV2X4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750A68C
+Path = /575351EC
+Reference = U1;
+ValeurCmp = TL081;
+IdModule  = Power_Integrations:PDIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D33B
+Path = /57547948
+Reference = J1;
+ValeurCmp = JACK_GB_5PINS;
+IdModule  = GameBoy:Jack;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D343
+Path = /5756D92E
+Reference = P48;
+ValeurCmp = CONN_JACK_JACK;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D349
+Path = /5754C450
+Reference = P49;
+ValeurCmp = SP;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D351
+Path = /57566359
+Reference = P50;
+ValeurCmp = CONN_JACK_BTN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750D374
+Path = /57530005
+Reference = U2;
+ValeurCmp = Ampli_Audio;
+IdModule  = GameBoy:ampli_audio;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DE39
+Path = /5758B986
+Reference = P51;
+ValeurCmp = 3V3;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750DE3E
+Path = /5758C994
+Reference = P52;
+ValeurCmp = 5V;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750A509
+Path = /574F6033
+Reference = P47;
+ValeurCmp = JOYSTICK;
+IdModule  = GameBoy:PSP_Joystick;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750E16E
+Path = /575956C7
+Reference = P53;
+ValeurCmp = CS;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750E173
+Path = /575956CD
+Reference = P54;
+ValeurCmp = CLK;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5752C90B
+Path = /57534E27
+Reference = P55;
+ValeurCmp = DIN;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5752C910
+Path = /57534E21
+Reference = P56;
+ValeurCmp = DOUT;
+IdModule  = GameBoy:header_1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5752CBD7
+Path = /5751F093
+Reference = U3;
+ValeurCmp = MCP3002;
+IdModule  = Power_Integrations:PDIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5752EB6D
+Path = /574F77C7
+Reference = D1;
+ValeurCmp = BAT_LOW;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5750A66C
+Path = /574F7858
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM7mm;
+EndCmp
+
+EndListe

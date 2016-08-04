@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_01X01
+D Connector 01x01
+$ENDCMP
+#
+$CMP Hole
+D Connector 01x01
+$ENDCMP
+#
+$CMP JACK_GB_5PINS
+D audio jack TRS 5 pins
+K audio jack connector GameBoy
+$ENDCMP
+#
+$CMP Switch_GB
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+#End Doc Library
